@@ -12,33 +12,33 @@
             var options =  $.extend(defaults, options);
 
             return this.each(function() {
-                $('#slider ul, #slider li').css('width',options.width);
-                $('#slider ul, #slider li').css('height',options.height);
-                $('#slider ul > li').css('right',-options.width);
-                $('#slider').css('max-width',options.width);
-                $('#slider').css('max-height',options.height);
-                $('#slider').css('height',options.height);
+                $('#femiSlider ul, #femiSlider li').css('width',options.width);
+                $('#femiSlider ul, #femiSlider li').css('height',options.height);
+                $('#femiSlider ul > li').css('right',-options.width);
+                $('#femiSlider').css('max-width',options.width);
+                $('#femiSlider').css('max-height',options.height);
+                $('#femiSlider').css('height',options.height);
                 function tslider(){
-                $('#slider  ul > li.first').addClass('nextlast');
-                $('#slider li.nextlast').removeClass('first');
+                $('#femiSlider  ul > li.first').addClass('nextlast');
+                $('#femiSlider li.nextlast').removeClass('first');
                 
                 
-                $('#slider  ul > li.second').addClass('nextfirst');
-                $('#slider li.nextfirst').removeClass('second');
+                $('#femiSlider  ul > li.second').addClass('nextfirst');
+                $('#femiSlider li.nextfirst').removeClass('second');
                 
                 
-                $('#slider  ul > li.last').addClass('nextsecond');
-                $('#slider li.nextsecond').removeClass('last');
+                $('#femiSlider  ul > li.last').addClass('nextsecond');
+                $('#femiSlider li.nextsecond').removeClass('last');
                 
                 
-                $('#slider li.nextlast').addClass('last');
-                $('#slider li.last').removeClass('nextlast');
+                $('#femiSlider li.nextlast').addClass('last');
+                $('#femiSlider li.last').removeClass('nextlast');
                 
-                $('#slider li.nextfirst').addClass('first');
-                $('#slider li.first').removeClass('nextfirst');
+                $('#femiSlider li.nextfirst').addClass('first');
+                $('#femiSlider li.first').removeClass('nextfirst');
                 
-                $('#slider li.nextsecond').addClass('second');
-                $('#slider li.second').removeClass('nextsecond');
+                $('#femiSlider li.nextsecond').addClass('second');
+                $('#femiSlider li.second').removeClass('nextsecond');
                 }
                 
                 setInterval(function(){

@@ -1,23 +1,23 @@
-#slider ul,#slider li{
+#femiSlider ul,#femiSlider li{
     padding :0px;
     margin:0px;
     list-style:none;
     
 }
 
-#slider ul > li{
+#femiSlider ul > li{
     position: absolute;
     top:0px;
     visibility: visible;
     z-index: -1;
 }
 
-#slider{
+#femiSlider{
     overflow:hidden;
     position: relative;
 }
 
-#slider *{
+#femiSlider *{
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
