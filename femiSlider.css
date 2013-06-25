@@ -1,0 +1,56 @@
+#slider ul,#slider li{
+    padding :0px;
+    margin:0px;
+    list-style:none;
+    
+}
+
+#slider ul > li{
+    position: absolute;
+    top:0px;
+    visibility: visible;
+    z-index: -1;
+}
+
+#slider{
+    overflow:hidden;
+    position: relative;
+}
+
+#slider *{
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -ie-transition: all 1s ease-in-out;
+}
+
+.first{
+    top:0px;
+    right: 0px !important;
+    visibility: visible;
+    z-index: 99;
+}
+
+.second{
+    visibility: hidden !important;
+    z-index: -1;
+}
+
+.last{
+    visibility: hidden !important;
+    z-index: -1;
+}
+
+.nextfirst{
+    
+}
+
+.nextsecond{
+    
+}
+
+.nextlast{
+    
+}
